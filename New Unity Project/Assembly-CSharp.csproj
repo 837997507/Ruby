@@ -52,10 +52,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\RubyController.cs" />
      <Compile Include="Assets\Scripts\HealthCollectible.cs" />
-     <Compile Include="Assets\Scripts\DamageZone.cs" />
+     <Compile Include="Assets\Scripts\RubyController.cs" />
      <Compile Include="Assets\Scripts\EnemyController.cs" />
+     <Compile Include="Assets\Scripts\DamageZone.cs" />
      <None Include="Assets\2DBeginner_Third-PartyNotice.txt" />
  <Reference Include="UnityEngine">
  <HintPath>D:/unity/2020.3.8f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

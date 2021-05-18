@@ -7,45 +7,56 @@ using Random = UnityEngine.Random;
 public class EnemyController : MonoBehaviour
 {
     public float speed;
+    public bool  vertical;
     public float changeTime = 3.0f;
-    
-    private Rigidbody2D _rigidbody2D;
-    private Vector2 _origianlPos;
-    private Vector3 _targetPos;
-    private Vector2 _currentPos;
-    private float _timer = 0;
-    private float _randomValue;
-    private float _dst;
 
-    // Start is called before the first frame update
+    private Rigidbody2D _rigidbody2D;
+    private Animator _animator;
+    float       timer;
+    int         direction = 1;
+    
+    // 在第一次帧更新之前调用 Start
     void Start()
     {
-        _rigidbody2D = transform.GetComponent<Rigidbody2D>();
-        _origianlPos = transform.position;
+        _rigidbody2D = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
+        timer       = changeTime;
     }
 
-    private void Update()
+    void Update()
     {
-        if (_timer <= 0)
+        timer -= Time.deltaTime;
+
+        if (timer < 0)
         {
-            _randomValue = Random.Range(-1.0f, 1.0f);
-            _timer = changeTime;
-            
-            _targetPos = new Vector3(_origianlPos.x + _randomValue * speed, _origianlPos.y + _randomValue * speed, transform.position.z);
-            _dst = Vector3.Distance(_currentPos, _targetPos);
+            direction = -direction;
+            timer     = changeTime;
         }
-        _timer -= Time.deltaTime;
-    }
-
-    void FixedUpdate()
-    {
-        _currentPos = Vector3.Lerp(transform.position, _targetPos, Time.deltaTime * speed / _dst);
-        _rigidbody2D.MovePosition(_currentPos);
     }
     
+    void FixedUpdate()
+    {
+        Vector2 position = _rigidbody2D.position;
+        
+        if (vertical)
+        {
+            position.y = position.y + Time.deltaTime * speed * direction;
+            _animator.SetFloat("MoveX", 0);
+            _animator.SetFloat("MoveY", direction);
+        }
+        else
+        {
+            position.x = position.x + Time.deltaTime * speed * direction;
+            _animator.SetFloat("MoveX", direction);
+            _animator.SetFloat("MoveY", 0);
+        }
+        
+        _rigidbody2D.MovePosition(position);
+    }
+
     void OnCollisionEnter2D(Collision2D other)
     {
-        RubyController player = other.gameObject.GetComponent<RubyController>();
+        RubyController player = other.gameObject.GetComponent<RubyController >();
 
         if (player != null)
         {

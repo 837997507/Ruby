@@ -334,7 +334,7 @@
  <HintPath>D:/unity/2020.3.8f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>E:/Ruby/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>E:/Ruby/Ruby/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>D:/unity/2020.3.8f1c1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
