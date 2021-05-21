@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\RubyController.cs" />
      <Compile Include="Assets\Scripts\EnemyController.cs" />
      <Compile Include="Assets\Scripts\DamageZone.cs" />
+     <Compile Include="Assets\Scripts\Projectile.cs" />
      <None Include="Assets\2DBeginner_Third-PartyNotice.txt" />
  <Reference Include="UnityEngine">
  <HintPath>D:/unity/2020.3.8f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -741,6 +742,14 @@
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
       <Project>{9687295b-3b5c-7049-293f-250f025c1987}</Project>
       <Name>Unity.2D.SpriteShape.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{3bd1c086-4a29-b7b7-cbcb-55b8969ef4e1}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{850d433a-0c05-dcbc-19bd-28fc018eabda}</Project>
+      <Name>Cinemachine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
