@@ -53,11 +53,34 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\HealthCollectible.cs" />
+     <Compile Include="Assets\Scripts\Ui\UIHealthBar.cs" />
      <Compile Include="Assets\Scripts\RubyController.cs" />
      <Compile Include="Assets\Scripts\EnemyController.cs" />
-     <Compile Include="Assets\Scripts\DamageZone.cs" />
      <Compile Include="Assets\Scripts\Projectile.cs" />
+     <Compile Include="Assets\Scripts\DamageZone.cs" />
+     <Compile Include="Assets\NonPlayerCharacter.cs" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\2DBeginner_Third-PartyNotice.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
  <Reference Include="UnityEngine">
  <HintPath>D:/unity/2020.3.8f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -707,6 +730,14 @@
       <Project>{749a6d33-ce47-e7e1-b880-da808fa0c432}</Project>
       <Name>Unity.2D.IK.Runtime</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{850d433a-0c05-dcbc-19bd-28fc018eabda}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{3bd1c086-4a29-b7b7-cbcb-55b8969ef4e1}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Triangle.Runtime.csproj">
       <Project>{18faae15-dfcd-ccda-f86f-dfc42b042f77}</Project>
       <Name>Unity.2D.Animation.Triangle.Runtime</Name>
@@ -742,14 +773,6 @@
     <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
       <Project>{9687295b-3b5c-7049-293f-250f025c1987}</Project>
       <Name>Unity.2D.SpriteShape.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{3bd1c086-4a29-b7b7-cbcb-55b8969ef4e1}</Project>
-      <Name>com.unity.cinemachine.editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Cinemachine.csproj">
-      <Project>{850d433a-0c05-dcbc-19bd-28fc018eabda}</Project>
-      <Name>Cinemachine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

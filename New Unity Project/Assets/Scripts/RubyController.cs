@@ -11,16 +11,28 @@ public class RubyController : MonoBehaviour
     public int health { get { return _currentHealth; }}
     
     /// <summary>
-    /// 飞弹预制件
+    /// 预制件
     /// </summary>
     public GameObject projectilePrefab;
-    
+    public ParticleSystem cureEffect;
+    public ParticleSystem hurtEffect;
+
+    /// <summary>
+    /// 资源
+    /// </summary>
+    public AudioClip hitAudio;
+    public AudioClip launchAudio;
+
+    /// <summary>
+    /// 组件
+    /// </summary>
+    private Rigidbody2D _rigidbody2d;
+    private Animator _animator;
+    private AudioSource _audioSource;    
     
     private int _currentHealth;
     private float _horizontal; 
     private float _vertical;
-    private Rigidbody2D _rigidbody2d;
-    private Animator _animator;
     private bool  _isInvincible;
     private float _invincibleTimer;
     private Vector2 _lookDirection = Vector2.one;
@@ -30,6 +42,7 @@ public class RubyController : MonoBehaviour
     {
         _rigidbody2d = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        _audioSource = GetComponent<AudioSource>();
         _currentHealth = maxHealth;
     }
 
@@ -39,6 +52,19 @@ public class RubyController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space))
         {
             Launch();
+        }
+        
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            RaycastHit2D hit = Physics2D.Raycast(_rigidbody2d.position + Vector2.up * 0.2f, _lookDirection, 1.5f, LayerMask.GetMask("Npc"));
+            if (hit.collider != null)
+            {
+                var character = hit.collider.GetComponent<NonPlayerCharacter>();
+                if (character != null)
+                {
+                    character.DisplayDialog();
+                }
+            }
         }
         
         _horizontal = Input.GetAxis("Horizontal");
@@ -81,12 +107,19 @@ public class RubyController : MonoBehaviour
             
             _isInvincible = true;
             _invincibleTimer = timeInvincible;
+            var hurtEffectObj = Instantiate(hurtEffect, _rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);
+            hurtEffectObj.Play();
             _animator.SetTrigger("Hit");
+            _audioSource.PlayOneShot(hitAudio);
         }
-        
+        else
+        {
+            var cureEffectObj = Instantiate(cureEffect, _rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);
+            cureEffectObj.Play();
+        } 
         _currentHealth = Mathf.Clamp(_currentHealth + amount, 0, maxHealth);
-        Debug.Log(_currentHealth + "/" + maxHealth);
-    }
+        UIHealthBar.instance.SetValue(_currentHealth / (float)maxHealth);
+    } 
 
     public void Launch()
     {
@@ -95,5 +128,11 @@ public class RubyController : MonoBehaviour
         projectile.Launch(_lookDirection, 300);
         
         _animator.SetTrigger("Launch");
+        _audioSource.PlayOneShot(launchAudio);
+    }
+    
+    public void PlaySound(AudioClip clip)
+    {
+        _audioSource.PlayOneShot(clip);
     }
 }

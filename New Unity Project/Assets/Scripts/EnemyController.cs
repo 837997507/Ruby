@@ -9,6 +9,7 @@ public class EnemyController : MonoBehaviour
     public float speed;
     public bool  vertical;
     public float changeTime = 3.0f;
+    public ParticleSystem smokeEffect;
 
     private Rigidbody2D _rigidbody2D;
     private Animator _animator;
@@ -46,7 +47,7 @@ public class EnemyController : MonoBehaviour
     {
         if (!_isBroken)
         {
-            return;;
+            return;
         }
         
         Vector2 position = _rigidbody2D.position;
@@ -72,6 +73,7 @@ public class EnemyController : MonoBehaviour
         _isBroken               = false;
         _rigidbody2D.simulated  = false;
         _animator.SetTrigger("Fixed");
+        smokeEffect.Stop();
     }
     
     void OnCollisionEnter2D(Collision2D other)
