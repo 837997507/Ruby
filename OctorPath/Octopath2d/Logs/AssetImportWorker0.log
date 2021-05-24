@@ -1,0 +1,505 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.8f1c1 (0b92326fa640) revision 758322'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19042.928; Version 2009; 64bit' Language: 'zh' Physical Memory: 16317 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\unity\2020.3.8f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/OctorPath/Octopath2d
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50353
+Successfully changed project path to: E:/OctorPath/Octopath2d
+E:/OctorPath/Octopath2d
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 28.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1c1 (0b92326fa640)
+[Subsystems] Discovering subsystems at path D:/unity/2020.3.8f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/OctorPath/Octopath2d/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GT 1030 (ID=0x1d01)
+    Vendor:   
+    VRAM:     1982 MB
+    Driver:   26.21.14.3200
+Initialize mono
+Mono path[0] = 'D:/unity/2020.3.8f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2020.3.8f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/2020.3.8f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2020.3.8f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001099 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 27.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000557 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.959 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.5 MB.
+System memory in use after: 59.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1558.
+Total: 1.699800 ms (FindLiveObjects: 0.233400 ms CreateObjectMapping: 0.147100 ms MarkObjects: 1.262200 ms  DeleteObjects: 0.056100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Rounded Blocks/stoneWall.psd
+  artifactKey: Guid(7ea5136024bc0a049a183d719e0a5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/stoneWall.psd using Guid(7ea5136024bc0a049a183d719e0a5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56197b4983a7501042595e2864245b2') in 0.118204 seconds
+  Import took 0.120382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Rounded Blocks/shardRock.psd
+  artifactKey: Guid(6ee0dd272b54e3a4ca2eea294928b30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/shardRock.psd using Guid(6ee0dd272b54e3a4ca2eea294928b30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218323b4229a459f881391fa0013d20f') in 0.017599 seconds
+  Import took 0.025768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000636 seconds.
+  path: Assets/Rounded Blocks/iceCaveBlocks.psd
+  artifactKey: Guid(37676652978b69440a4d22fc9b795c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/iceCaveBlocks.psd using Guid(37676652978b69440a4d22fc9b795c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3a74619614ff35229caa4c41a74bbd') in 0.025121 seconds
+  Import took 0.027697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001484 seconds.
+  path: Assets/Rounded Blocks/iceRock.png
+  artifactKey: Guid(618152c790541b34e925faa0aebfc5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/iceRock.png using Guid(618152c790541b34e925faa0aebfc5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418c0e7a102987d8e158fb32f384a648') in 0.024094 seconds
+  Import took 0.027125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Rounded Blocks/oceanRock.png
+  artifactKey: Guid(b9b30dc8c78dfc9409891ce28926344c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/oceanRock.png using Guid(b9b30dc8c78dfc9409891ce28926344c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e637b5922ca2e769a683ac87af0924') in 0.024255 seconds
+  Import took 0.027888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Rounded Blocks/oceanRock.psd
+  artifactKey: Guid(bb1b07fa27db1764f9f91fb669fd9103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/oceanRock.psd using Guid(bb1b07fa27db1764f9f91fb669fd9103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e389107067d88fa8fc27e2500a82453') in 0.020031 seconds
+  Import took 0.026269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Rounded Blocks/stone.png
+  artifactKey: Guid(df2e83bdceb904a4ea9bca45d7f1ba6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/stone.png using Guid(df2e83bdceb904a4ea9bca45d7f1ba6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d733b055357c80256aa03a7f335750') in 0.026980 seconds
+  Import took 0.033896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Rounded Blocks/groundAndGrass.png
+  artifactKey: Guid(d3d615e5c42c87246b426e6a3ac5b692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/groundAndGrass.png using Guid(d3d615e5c42c87246b426e6a3ac5b692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8ca04bf06390cb355c9e10398fba96') in 0.028440 seconds
+  Import took 0.030920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Rounded Blocks/groundAndGrass.psd
+  artifactKey: Guid(1d7c3255c91b5d34bb75e86d3854d77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/groundAndGrass.psd using Guid(1d7c3255c91b5d34bb75e86d3854d77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31f4169ecf733cb8480b6ce672b6ae8') in 0.014221 seconds
+  Import took 0.016494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Rounded Blocks/mossBlock.psd
+  artifactKey: Guid(e3fef07e6625ee04cb77edab631671ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/mossBlock.psd using Guid(e3fef07e6625ee04cb77edab631671ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bebde78ad2dce53f5b71486fa200d7') in 0.034206 seconds
+  Import took 0.036954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Rounded Blocks/shardRock.png
+  artifactKey: Guid(bf4626f7f5e1ff346988af124af83dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/shardRock.png using Guid(bf4626f7f5e1ff346988af124af83dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d55ed8e8406abdad7999ad247d7154c') in 0.024281 seconds
+  Import took 0.027680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Rounded Blocks/stoneWall.png
+  artifactKey: Guid(0a2bac6543c09dc47a1f5cca284eeb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/stoneWall.png using Guid(0a2bac6543c09dc47a1f5cca284eeb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d32cb4a812912b4ec718b5c372ca55') in 0.018321 seconds
+  Import took 0.020777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000770 seconds.
+  path: Assets/Rounded Blocks/stone.psd
+  artifactKey: Guid(b29d0910a4e5605408e9f4e75bde8b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/stone.psd using Guid(b29d0910a4e5605408e9f4e75bde8b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78964faeec7853ce06be25f2ea84119e') in 0.022659 seconds
+  Import took 0.026512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Rounded Blocks/mossBlock.png
+  artifactKey: Guid(a5d45e3a152dcd64e9cb71de1f6733fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/mossBlock.png using Guid(a5d45e3a152dcd64e9cb71de1f6733fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9d44ba5263e4ffa9109ff9eace495f') in 0.019620 seconds
+  Import took 0.021562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Rounded Blocks/iceCave.psd
+  artifactKey: Guid(b46be4b252250a846ac7c206b20e69ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/iceCave.psd using Guid(b46be4b252250a846ac7c206b20e69ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf996eaa65e2ee89751742092e2c2880') in 0.032833 seconds
+  Import took 0.035592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Rounded Blocks/lava.psd
+  artifactKey: Guid(0558276577f39c442b35e84cf2daf46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/lava.psd using Guid(0558276577f39c442b35e84cf2daf46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd575425dd908db0a305b5d179d92b6e3') in 0.016023 seconds
+  Import took 0.018675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Rounded Blocks/iceCave.png
+  artifactKey: Guid(a594253672bad1d47b6abac90bc36c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/iceCave.png using Guid(a594253672bad1d47b6abac90bc36c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8094db7d8069b2397262dbca85d73343') in 0.030711 seconds
+  Import took 0.033097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Rounded Blocks/lava.png
+  artifactKey: Guid(3af0bf9da0dc45649b9bb7a0745d4661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/lava.png using Guid(3af0bf9da0dc45649b9bb7a0745d4661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2951b82be76beb1212414a3f2e037425') in 0.025397 seconds
+  Import took 0.030528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000710 seconds.
+  path: Assets/Rounded Blocks/ground.png
+  artifactKey: Guid(318fab98dd4411744a4baad2e233491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/ground.png using Guid(318fab98dd4411744a4baad2e233491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ecec045dd9ae3d028b0d21618288ef') in 0.021011 seconds
+  Import took 0.025083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.632998 seconds.
+  path: Assets/Rounded Blocks/stoneWall.psd
+  artifactKey: Guid(7ea5136024bc0a049a183d719e0a5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/stoneWall.psd using Guid(7ea5136024bc0a049a183d719e0a5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a5f2acd3085bd2fec635ceff89bfa4') in 0.012492 seconds
+  Import took 0.014813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023756 seconds.
+  path: Assets/Rounded Blocks/stoneWall.psd
+  artifactKey: Guid(7ea5136024bc0a049a183d719e0a5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/stoneWall.psd using Guid(7ea5136024bc0a049a183d719e0a5d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a5f2acd3085bd2fec635ceff89bfa4') in 0.013195 seconds
+  Import took 0.015103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.033841 seconds.
+  path: Assets/Rounded Blocks/Materials
+  artifactKey: Guid(773633fe11f095841bb031e33e932ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/Materials using Guid(773633fe11f095841bb031e33e932ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3821feb635de95b9ae78d8fa5cc26551') in 0.007523 seconds
+  Import took 0.014445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035360 seconds.
+  path: Assets/Rounded Blocks/Materials/stoneWall.mat
+  artifactKey: Guid(e885fce9b6201474f8e1333d86f90450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/Materials/stoneWall.mat using Guid(e885fce9b6201474f8e1333d86f90450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26a735bdbf8177a35551dc54e46a703') in 0.040622 seconds
+  Import took 0.042597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.215386 seconds.
+  path: Assets/Rounded Blocks/stoneWall.png
+  artifactKey: Guid(0a2bac6543c09dc47a1f5cca284eeb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/stoneWall.png using Guid(0a2bac6543c09dc47a1f5cca284eeb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffc418f81686f3ae2205925880a12f1') in 0.015326 seconds
+  Import took 0.018289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023566 seconds.
+  path: Assets/Rounded Blocks/stoneWall.png
+  artifactKey: Guid(0a2bac6543c09dc47a1f5cca284eeb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/stoneWall.png using Guid(0a2bac6543c09dc47a1f5cca284eeb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffc418f81686f3ae2205925880a12f1') in 0.014453 seconds
+  Import took 0.016663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.261845 seconds.
+  path: Assets/Rounded Blocks/groundAndGrass.psd
+  artifactKey: Guid(1d7c3255c91b5d34bb75e86d3854d77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/groundAndGrass.psd using Guid(1d7c3255c91b5d34bb75e86d3854d77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0d368ca55832ae88f264019d60eae9') in 0.012655 seconds
+  Import took 0.015433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023456 seconds.
+  path: Assets/Rounded Blocks/groundAndGrass.psd
+  artifactKey: Guid(1d7c3255c91b5d34bb75e86d3854d77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/groundAndGrass.psd using Guid(1d7c3255c91b5d34bb75e86d3854d77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0d368ca55832ae88f264019d60eae9') in 0.014149 seconds
+  Import took 0.016036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.573094 seconds.
+  path: Assets/Rounded Blocks
+  artifactKey: Guid(8b022a8f9e160f24eb9bcf3c652e292e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks using Guid(8b022a8f9e160f24eb9bcf3c652e292e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c96df11ce35d007f1ddfe562490ad13') in 0.009479 seconds
+  Import took 0.011675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.094411 seconds.
+  path: Assets/Rounded Blocks/新建材质.mat
+  artifactKey: Guid(a9dc183509cc89347ae464657c9bfaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/新建材质.mat using Guid(a9dc183509cc89347ae464657c9bfaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9376b324a2954e1c13114a2ed27d35') in 0.016607 seconds
+  Import took 0.019380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.971228 seconds.
+  path: Assets/Rounded Blocks/NewSurfaceShader.shader
+  artifactKey: Guid(0480f5682aea7e24b97bff6d69a77cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/NewSurfaceShader.shader using Guid(0480f5682aea7e24b97bff6d69a77cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f0e761b8b5cef67c40ee353814ab50') in 0.028194 seconds
+  Import took 0.031414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.777568 seconds.
+  path: Assets/Rounded Blocks/新建材质 2.mat
+  artifactKey: Guid(44ec67495060217408ae8dc543fd3bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/新建材质 2.mat using Guid(44ec67495060217408ae8dc543fd3bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752fc886e512cbe27a6ec29c7b59048a') in 0.012882 seconds
+  Import took 0.015217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 337.915856 seconds.
+  path: Assets/Rounded Blocks/新建材质 2.mat
+  artifactKey: Guid(44ec67495060217408ae8dc543fd3bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/新建材质 2.mat using Guid(44ec67495060217408ae8dc543fd3bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033867f1aecfe8951a10817d90687bc9') in 0.052954 seconds
+  Import took 0.059037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Rounded Blocks/新建材质.mat
+  artifactKey: Guid(a9dc183509cc89347ae464657c9bfaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/新建材质.mat using Guid(a9dc183509cc89347ae464657c9bfaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ae909e80014356de3479ccb097e21e') in 0.061536 seconds
+  Import took 0.065067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.390851 seconds.
+  path: Assets/Rounded Blocks/stoneWall.png
+  artifactKey: Guid(0a2bac6543c09dc47a1f5cca284eeb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/stoneWall.png using Guid(0a2bac6543c09dc47a1f5cca284eeb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85772508bbae31263b7494b8207126a7') in 0.075967 seconds
+  Import took 0.078894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.149656 seconds.
+  path: Assets/Rounded Blocks/stoneWall.png
+  artifactKey: Guid(0a2bac6543c09dc47a1f5cca284eeb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/stoneWall.png using Guid(0a2bac6543c09dc47a1f5cca284eeb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0948f854b3b31a09428ff5770259e8ac') in 0.033735 seconds
+  Import took 0.036125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004936 seconds.
+  path: Assets/Rounded Blocks/stoneWall.png
+  artifactKey: Guid(0a2bac6543c09dc47a1f5cca284eeb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/stoneWall.png using Guid(0a2bac6543c09dc47a1f5cca284eeb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0948f854b3b31a09428ff5770259e8ac') in 0.026351 seconds
+  Import took 0.030017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 262.684786 seconds.
+  path: Assets/Rounded Blocks/stoneWall.png
+  artifactKey: Guid(0a2bac6543c09dc47a1f5cca284eeb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/stoneWall.png using Guid(0a2bac6543c09dc47a1f5cca284eeb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f7b7f450d402479aa64cdbc5c917b5') in 0.024674 seconds
+  Import took 0.027142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004154 seconds.
+  path: Assets/Rounded Blocks/stoneWall.png
+  artifactKey: Guid(0a2bac6543c09dc47a1f5cca284eeb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rounded Blocks/stoneWall.png using Guid(0a2bac6543c09dc47a1f5cca284eeb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f7b7f450d402479aa64cdbc5c917b5') in 0.023756 seconds
+  Import took 0.025929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.960787 seconds.
+  path: Assets/role
+  artifactKey: Guid(fdb922db4d4adbe4cb58ca87c00e3021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/role using Guid(fdb922db4d4adbe4cb58ca87c00e3021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586f6c7ae839368bb61e8d6aadae2bef') in 0.005514 seconds
+  Import took 0.007837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.233304 seconds.
+  path: Assets/role/JambiSheet.png
+  artifactKey: Guid(cfede78ebc6449440ace2e429ac4d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/role/JambiSheet.png using Guid(cfede78ebc6449440ace2e429ac4d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ddadd2f81dc5809c31188a04402d07') in 0.011626 seconds
+  Import took 0.013516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.661867 seconds.
+  path: Assets/role/JambiSheet.png
+  artifactKey: Guid(cfede78ebc6449440ace2e429ac4d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/role/JambiSheet.png using Guid(cfede78ebc6449440ace2e429ac4d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906687d537421a4877758ba9b840d621') in 0.015386 seconds
+  Import took 0.017205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016664 seconds.
+  path: Assets/role/JambiSheet.png
+  artifactKey: Guid(cfede78ebc6449440ace2e429ac4d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/role/JambiSheet.png using Guid(cfede78ebc6449440ace2e429ac4d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906687d537421a4877758ba9b840d621') in 0.018096 seconds
+  Import took 0.020411 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.8 MB.
+System memory in use after: 64.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1639.
+Total: 1.719800 ms (FindLiveObjects: 0.130700 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.537100 ms  DeleteObjects: 0.016000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.336849 seconds.
+  path: Assets/role/JambiSheet.png
+  artifactKey: Guid(cfede78ebc6449440ace2e429ac4d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/role/JambiSheet.png using Guid(cfede78ebc6449440ace2e429ac4d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8904543169a5222c1b3c6033389fe38b') in 0.053806 seconds
+  Import took 0.056438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.174164 seconds.
+  path: Assets/role/JambiSheet.png
+  artifactKey: Guid(cfede78ebc6449440ace2e429ac4d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/role/JambiSheet.png using Guid(cfede78ebc6449440ace2e429ac4d865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6143c17ceea2896daae95c98adfb9850') in 0.056651 seconds
+  Import took 0.069190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.607700 seconds.
+  path: Assets/role/新建动画.anim
+  artifactKey: Guid(ea2c5af570a096c47a2f56056d8a1271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/role/新建动画.anim using Guid(ea2c5af570a096c47a2f56056d8a1271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40c19a1530dff85dd2414e7bdc6fd79') in 0.010686 seconds
+  Import took 0.012731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040422 seconds.
+  path: Assets/role/新建动画.anim
+  artifactKey: Guid(ea2c5af570a096c47a2f56056d8a1271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/role/新建动画.anim using Guid(ea2c5af570a096c47a2f56056d8a1271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40c19a1530dff85dd2414e7bdc6fd79') in 0.003849 seconds
+  Import took 0.005911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040585 seconds.
+  path: Assets/role/JambiSheet_0.controller
+  artifactKey: Guid(dbe25b4c9df5a7f4ba22894bc21c013f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/role/JambiSheet_0.controller using Guid(dbe25b4c9df5a7f4ba22894bc21c013f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e4a934be34c2eb25bd27e4fbe54e8c') in 0.011451 seconds
+  Import took 0.013371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.311827 seconds.
+  path: Assets/role/RubySheet.png
+  artifactKey: Guid(6202d9e174db60340898ea5a176b28ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/role/RubySheet.png using Guid(6202d9e174db60340898ea5a176b28ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996a06ba526dc184d83bd35ede764b14') in 0.014033 seconds
+  Import took 0.016868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.526605 seconds.
+  path: Assets/role/RubySheet.png
+  artifactKey: Guid(6202d9e174db60340898ea5a176b28ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/role/RubySheet.png using Guid(6202d9e174db60340898ea5a176b28ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0cfa97556621ca7142d2303afb02bb') in 0.012538 seconds
+  Import took 0.014578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021628 seconds.
+  path: Assets/role/RubySheet.png
+  artifactKey: Guid(6202d9e174db60340898ea5a176b28ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/role/RubySheet.png using Guid(6202d9e174db60340898ea5a176b28ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0cfa97556621ca7142d2303afb02bb') in 0.010346 seconds
+  Import took 0.012788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.413052 seconds.
+  path: Assets/role/RubySheet.png
+  artifactKey: Guid(6202d9e174db60340898ea5a176b28ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/role/RubySheet.png using Guid(6202d9e174db60340898ea5a176b28ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d104df9696ff02aaea153a924545f21') in 0.112239 seconds
+  Import took 0.115972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.235557 seconds.
+  path: Assets/role/RubySheet.png
+  artifactKey: Guid(6202d9e174db60340898ea5a176b28ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/role/RubySheet.png using Guid(6202d9e174db60340898ea5a176b28ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b259d2d18d1b8f73643c1e57b2f48cdc') in 0.123779 seconds
+  Import took 0.126191 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
